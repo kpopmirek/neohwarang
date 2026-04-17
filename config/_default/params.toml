@@ -1,0 +1,38 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+enableSearch = true
+disableTextInHeader = true
+
+[header]
+  layout = "basic"
+  logoType = "image"
+  showTitle = false
+  showLogo = true
+  disableTextInHeader = true
+
+[homepage]
+  layout = "background"
+  homepageImage = "banner01.jpg"
+  align = "left"
+  overlay = true
+  overlayOpacity = 0.75
+  showHeader = true
+  showRecent = false
+
+  heroSubtitle = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady. <br>Pokud chceš vidět více z mých tanečních coverů a jiných akcí, mrkni na Instagram."
+
+[params.assets]
+  customCSS = ["css/custom.css"]
+
+[article]
+  showDate = false
+  showViews = false
+  showLikes = false
+  showAuthor = false
+  showAuthorBottom = false
+  showHero = false
+  showBreadcrumbs = false
+  showTaxonomies = false
+  showAuthorsBadges = false
+  showWordCount = false

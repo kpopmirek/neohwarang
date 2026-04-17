@@ -1,0 +1,35 @@
+[cs]
+  languageCode = "cs"
+  languageName = "Čeština"
+  weight = 1
+  title = "NEO HWARANG – tanec, soutěže a láska ke K-popu"
+  [cs.params]
+    displayName = "CS"
+  [cs.params.author]
+    links = [
+      { instagram = "https://www.instagram.com/stanislav.kucera.184/" },
+    ]
+
+[en]
+  languageCode = "en"
+  languageName = "English"
+  weight = 2
+  title = "NEO HWARANG – Dance and K-pop"
+  [en.params]
+    displayName = "EN"
+  [en.params.author]
+    links = [
+      { instagram = "https://www.instagram.com/stanislav.kucera.184/" },
+    ]
+
+[ko]
+  languageCode = "ko"
+  languageName = "한국어"
+  weight = 3
+  title = "네오 화랑 – 댄스 및 K-pop"
+  [ko.params]
+    displayName = "KO"
+  [ko.params.author]
+    links = [
+      { instagram = "https://www.instagram.com/stanislav.kucera.184/" },
+    ]

@@ -1,0 +1,24 @@
+theme = "blowfish"
+defaultContentLanguage = "cs"
+title = "NEO HWARANG - tanec, soutěže a láska ke K-popu"
+description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady."
+
+baseURL = "/"   # pro Cloudflare necháme prázdné, použijeme $CF_PAGES_URL
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+enableEmoji = true
+
+[pagination]
+  pagerSize = 100
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
