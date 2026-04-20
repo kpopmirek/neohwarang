@@ -1,33 +1,25 @@
-/* PC VERZE - PŘIBITÍ TEXTU DOLEVA DOLŮ */
+/* PC VERZE */
 @media (min-width: 768px) {
-    /* Cílíme na hlavní kontejner a dáváme mu pevné souřadnice */
-    .homepage-background main .relative.flex.flex-col {
-        position: fixed !important; /* Fixed je silnější než absolute */
-        top: auto !important;
-        bottom: 10vh !important; /* Tady to ovládej: 10vh je nízko, 30vh je vysoko */
-        left: 5vw !important;
-        width: 400px !important; /* Pevná šířka, aby to neutíkalo */
-        z-index: 50 !important;
-        height: auto !important;
-        justify-content: flex-end !important;
+    /* Toto zacílí na hlavní kontejner textu na úvodce */
+    .homepage-background article section {
         display: flex !important;
-    }
-
-    /* Vynucení zarovnání textu vlevo */
-    .homepage-background h1, 
-    .homepage-background p, 
-    .homepage-background div {
-        text-align: left !important;
-        margin-left: 0 !important;
-        align-items: flex-start !important;
-    }
-}
-
-/* MOBIL - NECHÁME TO NA STŘEDU */
-@media (max-width: 767px) {
-    .homepage-background .relative.flex.flex-col {
+        flex-direction: column !important;
         justify-content: flex-end !important;
+        align-items: flex-start !important;
+        min-height: 85vh !important; /* Toto ho donutí spadnout dolů */
+        padding-left: 5vw !important;
         padding-bottom: 5vh !important;
-        height: 85vh !important;
+        text-align: left !important;
+    }
+
+    /* Vynutíme, aby vnitřní části nebyly uprostřed */
+    .homepage-background article section div {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+        width: auto !important;
+        text-align: left !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
     }
 }
