@@ -1,37 +1,31 @@
-/* PC VERZE - Zacílení na konkrétní strukturu Blowfish */
+/* PC VERZE */
 @media (min-width: 768px) {
-    /* 1. Resetujeme centrování hlavního kontejneru */
-    .homepage-background article > div > div > div {
-        justify-content: flex-end !important;
-        align-items: flex-start !important;
-        min-height: 85vh !important;
-        padding-left: 5vw !important;
-        padding-bottom: 5vh !important; /* TADY ovládáš výšku (5vh je nízko) */
-    }
-
-    /* 2. Vynutíme zarovnání textu a ikon doleva */
-    .homepage-background .flex-col.items-center {
+    /* Toto vytrhne text z prostředku a přibije ho k levému dolnímu rohu */
+    .homepage-background .flex-col.items-center.justify-center {
+        position: fixed !important;
+        bottom: 12vh !important;   /* Vzdálenost odspodu - VĚTŠÍ ČÍSLO = VYŠŠÍ POZICE */
+        left: 8vw !important;      /* Vzdálenost odleva */
+        width: 400px !important;   /* Aby text nebyl přes celou obrazovku */
         align-items: flex-start !important;
         text-align: left !important;
-        margin-left: 0 !important;
+        height: auto !important;
+        top: auto !important;
     }
 
-    /* 3. Oprava popisku, aby nebyl vycentrovaný */
-    .homepage-background .text-center {
+    /* Vynutíme, aby texty v tom bloku nebyly na střed */
+    .homepage-background .text-center,
+    .homepage-background h1,
+    .homepage-background p {
         text-align: left !important;
-    }
-
-    /* 4. Omezení šířky textu, aby nezasahoval do postavy */
-    .homepage-background .max-w-prose {
-        max-width: 450px !important;
         margin-left: 0 !important;
     }
 }
 
-/* MOBILNÍ VERZE - Aby to zůstalo čitelné uprostřed */
+/* MOBIL - Zůstává vycentrovaný dole, aby to vypadalo dobře */
 @media (max-width: 767px) {
-    .homepage-background article > div > div > div {
+    .homepage-background .flex-col.items-center.justify-center {
         justify-content: flex-end !important;
-        padding-bottom: 5vh !important;
+        padding-bottom: 8vh !important;
+        height: 85vh !important;
     }
 }
