@@ -1,24 +1,40 @@
-/* Úprava POUZE pro úvodní stranu s pozadím */
+/* Úprava hlavní sekce na úvodní stránce */
 .homepage-background .relative.flex.flex-col.grow {
-    /* Místo pevných 25rem použijeme flexbox, aby se to samo usadilo */
     padding-top: 0 !important; 
     justify-content: flex-end !important;
-    padding-bottom: 15vh !important; /* Toto udrží text v dolní části, ale viditelný */
+    /* Posuneme text trochu níž od minulé verze */
+    padding-bottom: 8vh !important; 
+    
+    /* Na počítači posuneme text doleva */
+    align-items: flex-start !important; 
+    padding-left: 10vw !important; /* Mezera od levého okraje */
+    text-align: left !important;
 }
 
-/* Úprava pro ostatní stránky (články, O mně), aby nebyly rozbité */
-#main-content,
-.prose,
-article {
-    margin-top: 2rem !important; /* Normální mezera nahoře */
-    max-width: 800px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+/* Úprava ikon a popisků, aby lícovaly vlevo */
+.homepage-background .text-center {
+    text-align: left !important;
 }
 
-/* Větší nadpis na hlavní straně (volitelné) */
-.homepage-background h1 {
-    font-size: 3.5rem !important;
-    margin-bottom: 1rem !important;
-    font-weight: 800 !important;
+.homepage-background .items-center {
+    align-items: flex-start !important;
+}
+
+/* --- OPRAVA PRO MOBILY --- */
+/* Na mobilu (displej menší než 768px) to vrátíme na střed, 
+   aby text nebyl nalepený u kraje a postava zůstala vidět */
+@media (max-width: 768px) {
+    .homepage-background .relative.flex.flex-col.grow {
+        align-items: center !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        text-align: center !important;
+        padding-bottom: 5vh !important; /* Na mobilu ještě trochu níž */
+    }
+    
+    .homepage-background .text-center,
+    .homepage-background .items-center {
+        text-align: center !important;
+        align-items: center !important;
+    }
 }
