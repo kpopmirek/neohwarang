@@ -23,7 +23,6 @@ disableTextInHeader = true
   align = "center"
   heroSubtitle = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady. <br>Pokud chceš vidět více z mých tanečních coverů a jiných akcí, mrkni na Instagram."
 
-
 [params.assets]
   customCSS = ["css/custom.css"]
 
