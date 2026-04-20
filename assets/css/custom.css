@@ -1,20 +1,24 @@
-/* POSUN TEXTU DOLŮ NA BACKGROUND LAYOUTU */
-
-.relative.flex.flex-col.grow {
-    padding-top: 25rem !important;
+/* Úprava POUZE pro úvodní stranu s pozadím */
+.homepage-background .relative.flex.flex-col.grow {
+    /* Místo pevných 25rem použijeme flexbox, aby se to samo usadilo */
+    padding-top: 0 !important; 
+    justify-content: flex-end !important;
+    padding-bottom: 15vh !important; /* Toto udrží text v dolní části, ale viditelný */
 }
 
+/* Úprava pro ostatní stránky (články, O mně), aby nebyly rozbité */
 #main-content,
 .prose,
 article {
-    margin-top: 8rem !important;
-    max-width: 720px !important;
+    margin-top: 2rem !important; /* Normální mezera nahoře */
+    max-width: 800px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
 }
 
-h1 {
-    margin-bottom: 2.5rem !important;
+/* Větší nadpis na hlavní straně (volitelné) */
+.homepage-background h1 {
+    font-size: 3.5rem !important;
+    margin-bottom: 1rem !important;
+    font-weight: 800 !important;
 }
