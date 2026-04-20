@@ -1,25 +1,37 @@
-/* PC VERZE */
+/* PC VERZE - Zacílení na konkrétní strukturu Blowfish */
 @media (min-width: 768px) {
-    /* Toto zacílí na hlavní kontejner textu na úvodce */
-    .homepage-background article section {
-        display: flex !important;
-        flex-direction: column !important;
+    /* 1. Resetujeme centrování hlavního kontejneru */
+    .homepage-background article > div > div > div {
         justify-content: flex-end !important;
         align-items: flex-start !important;
-        min-height: 85vh !important; /* Toto ho donutí spadnout dolů */
+        min-height: 85vh !important;
         padding-left: 5vw !important;
-        padding-bottom: 5vh !important;
+        padding-bottom: 5vh !important; /* TADY ovládáš výšku (5vh je nízko) */
+    }
+
+    /* 2. Vynutíme zarovnání textu a ikon doleva */
+    .homepage-background .flex-col.items-center {
+        align-items: flex-start !important;
+        text-align: left !important;
+        margin-left: 0 !important;
+    }
+
+    /* 3. Oprava popisku, aby nebyl vycentrovaný */
+    .homepage-background .text-center {
         text-align: left !important;
     }
 
-    /* Vynutíme, aby vnitřní části nebyly uprostřed */
-    .homepage-background article section div {
+    /* 4. Omezení šířky textu, aby nezasahoval do postavy */
+    .homepage-background .max-w-prose {
+        max-width: 450px !important;
         margin-left: 0 !important;
-        margin-right: auto !important;
-        width: auto !important;
-        text-align: left !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
+    }
+}
+
+/* MOBILNÍ VERZE - Aby to zůstalo čitelné uprostřed */
+@media (max-width: 767px) {
+    .homepage-background article > div > div > div {
+        justify-content: flex-end !important;
+        padding-bottom: 5vh !important;
     }
 }
