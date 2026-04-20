@@ -10,7 +10,7 @@
 @media (min-width: 768px) {
     .homepage-background .relative.flex.flex-col.grow {
         position: absolute !important;
-        bottom: 8vh !important;   /* Vzdálenost odspodu - uprav dle libosti */
+        bottom: 3vh !important;   /* Vzdálenost odspodu - uprav dle libosti */
         left: 8vw !important;     /* Vzdálenost odleva - posune text mimo postavu */
         width: 45% !important;    /* Šířka bloku s textem */
         align-items: flex-start !important;
