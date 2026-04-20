@@ -16,6 +16,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="author"
+      href="//localhost:1313/author/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="ko"
       href="//localhost:1313/ko/"
     />

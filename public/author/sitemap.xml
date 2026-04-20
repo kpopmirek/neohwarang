@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>//localhost:1313/author/</loc>
+    <xhtml:link
+      rel="alternate"
+      hreflang="cs"
+      href="//localhost:1313/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="//localhost:1313/en/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ko"
+      href="//localhost:1313/ko/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="author"
+      href="//localhost:1313/author/"
+    />
+  </url>
+</urlset>

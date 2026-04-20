@@ -16,4 +16,9 @@
     
   </sitemap>
   
+  <sitemap>
+    <loc>//localhost:1313/author/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>

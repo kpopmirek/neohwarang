@@ -70,6 +70,11 @@
     />
     <xhtml:link
       rel="alternate"
+      hreflang="author"
+      href="//localhost:1313/author/"
+    />
+    <xhtml:link
+      rel="alternate"
       hreflang="en"
       href="//localhost:1313/en/"
     />
