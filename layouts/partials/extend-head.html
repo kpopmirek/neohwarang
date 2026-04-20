@@ -4,13 +4,23 @@
         display: flex !important;
         flex-direction: column !important;
         justify-content: flex-end !important;
-        min-height: 85vh !important;
-        padding-bottom: 5vh !important;
-        padding-left: 5vw !important;
+        /* Změníme výšku, aby to kleslo níž (85vh -> 92vh) */
+        min-height: 92vh !important; 
+        /* Tady ovládáš výšku odspodu (5vh je níž, 15vh je výš) */
+        padding-bottom: 5vh !important; 
+        /* Tady to šoupneš víc doleva (čím větší číslo, tím víc doprava) */
+        padding-left: 8vw !important; 
         align-items: flex-start !important;
     }
+    
     .homepage-background .text-center {
         text-align: left !important;
+    }
+    
+    .homepage-background .max-w-prose {
+        margin-left: 0 !important;
+        /* Omezíme šířku, aby text nešel přes postavu */
+        max-width: 450px !important; 
     }
 }
 </style>
