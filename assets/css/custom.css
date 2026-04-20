@@ -3,7 +3,7 @@
     /* Toto vytrhne text z prostředku a přibije ho k levému dolnímu rohu */
     .homepage-background .flex-col.items-center.justify-center {
         position: fixed !important;
-        bottom: 12vh !important;   /* Vzdálenost odspodu - VĚTŠÍ ČÍSLO = VYŠŠÍ POZICE */
+        bottom: 1vh !important;   /* Vzdálenost odspodu - VĚTŠÍ ČÍSLO = VYŠŠÍ POZICE */
         left: 8vw !important;      /* Vzdálenost odleva */
         width: 400px !important;   /* Aby text nebyl přes celou obrazovku */
         align-items: flex-start !important;
