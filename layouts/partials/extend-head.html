@@ -1,0 +1,36 @@
+<style>
+/* TENTO STYL PŘEBIJE VŠE, PROTOŽE JE PŘÍMO V HTML */
+@media (min-width: 768px) {
+    /* Hlavní kontejner úvodky */
+    .homepage-background main {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        height: 100vh !important;
+        padding-bottom: 5vh !important; /* Ovládání výšky odspodu */
+        padding-left: 8vw !important;  /* Posun doleva */
+    }
+
+    /* Zarovnání textu a ikon vlevo */
+    .homepage-background .flex-col.items-center {
+        align-items: flex-start !important;
+        text-align: left !important;
+        width: 100% !important;
+        max-width: 500px !important;
+    }
+
+    .homepage-background .text-center {
+        text-align: left !important;
+    }
+}
+
+/* Mobilní verze */
+@media (max-width: 767px) {
+    .homepage-background main {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        padding-bottom: 8vh !important;
+    }
+}
+</style>
