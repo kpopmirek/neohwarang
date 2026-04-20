@@ -1,26 +1,43 @@
 <style>
+/* PC VERZE - Definitivní posun */
 @media (min-width: 768px) {
     .homepage-background .flex-col.items-center.justify-center {
         display: flex !important;
         flex-direction: column !important;
+        /* Tohle ho pošle úplně dolů */
         justify-content: flex-end !important;
-        /* Změníme výšku, aby to kleslo níž (85vh -> 92vh) */
-        min-height: 92vh !important; 
-        /* Tady ovládáš výšku odspodu (5vh je níž, 15vh je výš) */
-        padding-bottom: 5vh !important; 
-        /* Tady to šoupneš víc doleva (čím větší číslo, tím víc doprava) */
-        padding-left: 8vw !important; 
+        /* Zvětšíme výšku "kontejneru", aby byl až k zemi */
+        min-height: 94vh !important; 
+        /* Mezera odspodu (aby to nebylo v patě webu) */
+        padding-bottom: 6vh !important; 
+        /* Mezera odleva (šoupne to doleva) */
+        padding-left: 6vw !important; 
         align-items: flex-start !important;
+        /* Zrušíme případné centrování z Blowfish */
+        top: auto !important;
     }
-    
-    .homepage-background .text-center {
+
+    /* Všechny texty srovnat doleva */
+    .homepage-background .text-center,
+    .homepage-background h1,
+    .homepage-background p {
         text-align: left !important;
-    }
-    
-    .homepage-background .max-w-prose {
         margin-left: 0 !important;
-        /* Omezíme šířku, aby text nešel přes postavu */
-        max-width: 450px !important; 
+        margin-right: auto !important;
+    }
+
+    /* Omezíme šířku, aby text nešel přes tělo Mirka */
+    .homepage-background .max-w-prose {
+        max-width: 420px !important;
+    }
+}
+
+/* MOBIL - Zůstane uprostřed dole */
+@media (max-width: 767px) {
+    .homepage-background .flex-col.items-center.justify-center {
+        justify-content: flex-end !important;
+        padding-bottom: 8vh !important;
+        min-height: 85vh !important;
     }
 }
 </style>

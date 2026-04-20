@@ -238,28 +238,45 @@ Pokud chceš vidět více z mých tanečních coverů a jiných akcí, mrkni na 
   
   
     <style>
+ 
 @media (min-width: 768px) {
     .homepage-background .flex-col.items-center.justify-center {
         display: flex !important;
         flex-direction: column !important;
+         
         justify-content: flex-end !important;
          
-        min-height: 92vh !important; 
+        min-height: 94vh !important; 
          
-        padding-bottom: 5vh !important; 
+        padding-bottom: 6vh !important; 
          
-        padding-left: 8vw !important; 
+        padding-left: 6vw !important; 
         align-items: flex-start !important;
-    }
-    
-    .homepage-background .text-center {
-        text-align: left !important;
-    }
-    
-    .homepage-background .max-w-prose {
-        margin-left: 0 !important;
          
-        max-width: 450px !important; 
+        top: auto !important;
+    }
+
+     
+    .homepage-background .text-center,
+    .homepage-background h1,
+    .homepage-background p {
+        text-align: left !important;
+        margin-left: 0 !important;
+        margin-right: auto !important;
+    }
+
+     
+    .homepage-background .max-w-prose {
+        max-width: 420px !important;
+    }
+}
+
+ 
+@media (max-width: 767px) {
+    .homepage-background .flex-col.items-center.justify-center {
+        justify-content: flex-end !important;
+        padding-bottom: 8vh !important;
+        min-height: 85vh !important;
     }
 }
 </style>
