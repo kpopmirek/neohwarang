@@ -1,31 +1,43 @@
-/* PC VERZE */
+/* PC VERZE - TVRDÝ RESET NA CELOU OBRAZOVKU */
 @media (min-width: 768px) {
-    /* Toto vytrhne text z prostředku a přibije ho k levému dolnímu rohu */
-    .homepage-background .flex-col.items-center.justify-center {
-        position: fixed !important;
-        bottom: 1vh !important;   /* Vzdálenost odspodu - VĚTŠÍ ČÍSLO = VYŠŠÍ POZICE */
-        left: 8vw !important;      /* Vzdálenost odleva */
-        width: 400px !important;   /* Aby text nebyl přes celou obrazovku */
-        align-items: flex-start !important;
-        text-align: left !important;
-        height: auto !important;
-        top: auto !important;
+    /* Toto zajistí, že hlavní kontejner vyplní celou výšku jako Grokovo HTML */
+    .homepage-background main {
+        height: 100vh !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important; /* Posune vše dospod */
+        padding-bottom: 5vh !important;       /* TADY ovládáš výšku odspodu */
+        padding-left: 8vw !important;        /* TADY ovládáš posun doleva */
     }
 
-    /* Vynutíme, aby texty v tom bloku nebyly na střed */
-    .homepage-background .text-center,
-    .homepage-background h1,
-    .homepage-background p {
+    /* Zrušíme centrování, které tam cpe Blowfish */
+    .homepage-background .flex-col.items-center {
+        align-items: flex-start !important;
         text-align: left !important;
-        margin-left: 0 !important;
+        width: 100% !important;
+        max-width: 500px !important; /* Omezíme šířku textu */
+    }
+
+    /* Zarovnání textů a nadpisů vlevo */
+    .homepage-background .text-center {
+        text-align: left !important;
+    }
+
+    /* Zvětšení nadpisu podle Groka */
+    .homepage-background h1 {
+        font-size: 4.5rem !important;
+        letter-spacing: -2px !important;
+        margin-bottom: 1rem !important;
     }
 }
 
-/* MOBIL - Zůstává vycentrovaný dole, aby to vypadalo dobře */
+/* MOBIL - Aby to zůstalo čitelné a uprostřed */
 @media (max-width: 767px) {
-    .homepage-background .flex-col.items-center.justify-center {
-        justify-content: flex-end !important;
-        padding-bottom: 8vh !important;
+    .homepage-background main {
         height: 85vh !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-end !important;
+        padding-bottom: 5vh !important;
     }
 }
