@@ -1,37 +1,33 @@
-/* 1. Úprava OSTATNÍCH stránek (O mně, Soutěže atd.) */
-#main-content, .prose, article {
-    margin-top: 2rem !important;
-    max-width: 800px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-/* 2. TOTÁLNÍ KONTROLA NAD ÚVODNÍ STRÁNKOU (PC verze) */
+/* PC VERZE - PŘIBITÍ TEXTU DOLEVA DOLŮ */
 @media (min-width: 768px) {
-    .homepage-background .relative.flex.flex-col.grow {
-        position: absolute !important;
-        bottom: 3vh !important;   /* Vzdálenost odspodu - uprav dle libosti */
-        left: 8vw !important;     /* Vzdálenost odleva - posune text mimo postavu */
-        width: 45% !important;    /* Šířka bloku s textem */
-        align-items: flex-start !important;
-        text-align: left !important;
-        padding-bottom: 0 !important;
+    /* Cílíme na hlavní kontejner a dáváme mu pevné souřadnice */
+    .homepage-background main .relative.flex.flex-col {
+        position: fixed !important; /* Fixed je silnější než absolute */
+        top: auto !important;
+        bottom: 10vh !important; /* Tady to ovládej: 10vh je nízko, 30vh je vysoko */
+        left: 5vw !important;
+        width: 400px !important; /* Pevná šířka, aby to neutíkalo */
+        z-index: 50 !important;
+        height: auto !important;
+        justify-content: flex-end !important;
+        display: flex !important;
     }
 
-    /* Zarovnání nadpisu a ikon vlevo */
-    .homepage-background .text-center,
-    .homepage-background .items-center {
+    /* Vynucení zarovnání textu vlevo */
+    .homepage-background h1, 
+    .homepage-background p, 
+    .homepage-background div {
         text-align: left !important;
+        margin-left: 0 !important;
         align-items: flex-start !important;
     }
 }
 
-/* 3. ÚPRAVA PRO MOBILY (Text zůstane dole uprostřed) */
+/* MOBIL - NECHÁME TO NA STŘEDU */
 @media (max-width: 767px) {
-    .homepage-background .relative.flex.flex-col.grow {
+    .homepage-background .relative.flex.flex-col {
         justify-content: flex-end !important;
         padding-bottom: 5vh !important;
-        align-items: center !important;
-        text-align: center !important;
+        height: 85vh !important;
     }
 }
