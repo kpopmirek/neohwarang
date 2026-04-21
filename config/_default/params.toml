@@ -3,12 +3,13 @@
   image = "banner01.jpg"   # Tady musí být ta fotka pro profil!
  
 
-
-colorScheme = "blowfish"
-defaultAppearance = "dark"
-autoSwitchAppearance = false
-enableSearch = true
-disableTextInHeader = true
+# Tady začínají parametry šablony
+[params]
+  colorScheme = "blowfish"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = false
+  enableSearch = true
+  disableTextInHeader = true
 
 [header]
   layout = "basic"
