@@ -16,7 +16,7 @@ disableTextInHeader = true
 
 [homepage]
   layout = "profile"
-  homepageImage = "banner01.jpg" 
+  homepageImage = "/banner01.jpg" 
   showHero = true
   showRecent = false
   showLinks = true  # <--- TOTO PŘIDEJ, aby se zobrazila ikona Instagramu
