@@ -1,14 +1,24 @@
 <style>
 @media (min-width: 768px) {
-    /* Zacílíme na vnitřní kontejner Hero sekce */
-    .hero-content {
-        justify-content: flex-end !important;
-        align-items: flex-start !important;
-        padding-bottom: 10vh !important;
-        padding-left: 5vw !important;
-        height: 100vh !important;
+    /* Hlavní kontejner necháme žít, jen mu dáme výšku */
+    .homepage-background {
+        min-height: 100vh !important;
         display: flex !important;
         flex-direction: column !important;
+    }
+
+    /* Tohle je ten trik - margin-top: auto odtlačí text odshora dolů */
+    /* ale neovlivní to, jak šablona vykresluje fotku na pozadí */
+    .homepage-background .relative.z-10 {
+        margin-top: auto !important;
+        margin-bottom: 12vh !important; 
+        margin-left: 7vw !important;  
+        align-items: flex-start !important;
+        text-align: left !important;
+    }
+
+    .homepage-background .text-center {
+        text-align: left !important;
     }
 }
 </style>
