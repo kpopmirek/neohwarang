@@ -236,23 +236,28 @@
 @media (min-width: 768px) {
      
     .homepage-background {
-        min-height: 100vh !important;
         display: flex !important;
         flex-direction: column !important;
+        height: 100vh !important;
+        min-height: 100vh !important;
     }
 
      
-     
-    .homepage-background .relative.z-10 {
+    .homepage-background > .relative.container {
         margin-top: auto !important;
-        margin-bottom: 12vh !important; 
-        margin-left: 7vw !important;  
-        align-items: flex-start !important;
-        text-align: left !important;
+        margin-bottom: 8vh !important;  
+        margin-left: 5vw !important;   
+        padding: 0 !important;
+        display: block !important;
     }
 
+     
     .homepage-background .text-center {
         text-align: left !important;
+    }
+    
+    .homepage-background .items-center {
+        align-items: flex-start !important;
     }
 }
 </style>

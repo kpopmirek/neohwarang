@@ -15,7 +15,7 @@ disableTextInHeader = true
   disableTextInHeader = true
 
 [homepage]
-  layout = "profile"
+  layout = "background"
   homepageImage = "/banner01.jpg" 
   showHero = true
   showRecent = false
