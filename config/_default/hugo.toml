@@ -5,6 +5,10 @@ description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou
 
 baseURL = "/"   # pro Cloudflare necháme prázdné, použijeme $CF_PAGES_URL
 
+[params]
+  defaultAppearance = "dark"
+  autoSwitchAppearance = false
+
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
