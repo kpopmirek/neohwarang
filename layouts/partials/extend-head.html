@@ -1,32 +1,14 @@
 <style>
-/* PC VERZE (Monitor) */
 @media (min-width: 768px) {
-    /* Musíme zacílit na úplně nejvyšší kontejner v banneru */
-    .homepage-background .relative.flex.flex-col {
-        display: flex !important;
-        min-height: 100vh !important; /* Vynutí výšku přes celou obrazovku */
-        justify-content: flex-end !important; /* Dotlačí obsah k zemi */
-        padding-bottom: 8vh !important; /* Mezera odspodu */
-        padding-left: 5vw !important; /* Posun doleva */
-        align-items: flex-start !important; /* Zarovnání textu doleva */
-    }
-
-    /* Srovnáme texty, aby nebyly vycentrované */
-    .homepage-background .text-center {
-        text-align: left !important;
-    }
-    
-    .homepage-background .items-center {
-        align-items: flex-start !important;
-    }
-}
-
-/* MOBILNÍ VERZE - Tady to necháme na střed, aby to vypadalo dobře */
-@media (max-width: 767px) {
-    .homepage-background .relative.flex.flex-col {
+    /* Zacílíme na vnitřní kontejner Hero sekce */
+    .hero-content {
         justify-content: flex-end !important;
-        min-height: 80vh !important;
-        padding-bottom: 5vh !important;
+        align-items: flex-start !important;
+        padding-bottom: 10vh !important;
+        padding-left: 5vw !important;
+        height: 100vh !important;
+        display: flex !important;
+        flex-direction: column !important;
     }
 }
 </style>
