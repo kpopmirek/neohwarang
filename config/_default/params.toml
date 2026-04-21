@@ -1,5 +1,8 @@
 [author]
   name = "Mirek"
+  image = "banner01.jpg"   # Tady musí být ta fotka pro profil!
+ 
+
 
 colorScheme = "blowfish"
 defaultAppearance = "dark"
@@ -15,12 +18,15 @@ disableTextInHeader = true
   disableTextInHeader = true
 
 [homepage]
-  layout = "background"
-  homepageImage = "/banner01.jpg" 
+  layout = "profile"
+  showAvatar = true
+  avatar = "banner01.jpg" # Ujisti se, že je v assets nebo static
+  avatarSize = "20rem"    # Tady si pak můžeš nastavit velikost
+  homepageImage = ""
   showHero = true
   showRecent = false
   showLinks = true  # <--- TOTO PŘIDEJ, aby se zobrazila ikona Instagramu
-  #align = "left"
+  align = "left"
   heroSubtitle = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady. <br>Pokud chceš vidět více z mých tanečních coverů a jiných akcí, mrkni na Instagram."
 
 [params.assets]
