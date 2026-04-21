@@ -1,29 +1,25 @@
 <style>
-@media (min-width: 768px) {
-    /* Musíme zacílit na ten hlavní obal, který layout background vytvoří */
-    .homepage-background {
-        display: flex !important;
-        flex-direction: column !important;
-        height: 100vh !important;
-        min-height: 100vh !important;
+    /* LIŠKA JAKO KURZOR */
+    html, body {
+        cursor: url('/images/liska.png'), auto !important;
     }
 
-    /* Tento vnitřní div drží text a logo - vykopneme ho dolů */
-    .homepage-background > .relative.z-10 {
-        margin-top: auto !important;
-        margin-bottom: 8vh !important; /* Mezera odspodu */
-        margin-left: 5vw !important;  /* Mezera odleva */
-        padding: 0 !important;
-        display: block !important;
+    a, button, [role="button"], .cursor-pointer {
+        cursor: url('/images/liska.png'), pointer !important;
     }
 
-    /* Srovnáme texty, aby nebyly na střed */
-    .homepage-background .text-center {
-        text-align: left !important;
+    /* ÚPRAVA PRO PROFIL (pokud chceš text trochu vlevo) */
+    @media (min-width: 768px) {
+        .flex.flex-col.items-center.text-center {
+            align-items: flex-start !important; /* Zarovná text a avatara doleva */
+            text-align: left !important;
+            margin-left: 5vw !important;      /* Mezera od levého kraje */
+        }
     }
-    
-    .homepage-background .items-center {
-        align-items: flex-start !important;
-    }
-}
 </style>
+
+<script>
+    /* POJISTKA PRO TMAVÝ REŽIM */
+    localStorage.setItem('appearance', 'dark');
+    document.documentElement.classList.add('dark');
+</script>
