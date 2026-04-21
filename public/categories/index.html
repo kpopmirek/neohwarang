@@ -236,34 +236,21 @@
   
   
     <style>
-@media (min-width: 768px) {
-     
-    .homepage-background {
-        display: flex !important;
-        flex-direction: column !important;
-        height: 100vh !important;
-        min-height: 100vh !important;
+    html, body {
+         
+        cursor: url('/images/liska.png') 16 16, auto !important;
     }
 
-     
-    .homepage-background > .relative.z-10 {
-        margin-top: auto !important;
-        margin-bottom: 8vh !important;  
-        margin-left: 5vw !important;   
-        padding: 0 !important;
-        display: block !important;
+    a, button, [role="button"], .cursor-pointer {
+        cursor: url('/images/liska.png') 16 16, pointer !important;
     }
-
-     
-    .homepage-background .text-center {
-        text-align: left !important;
-    }
-    
-    .homepage-background .items-center {
-        align-items: flex-start !important;
-    }
-}
 </style>
+
+<script>
+     
+    localStorage.setItem('appearance', 'dark');
+    document.documentElement.classList.add('dark');
+</script>
   
 
   

@@ -1,20 +1,11 @@
 <style>
-    /* LIŠKA JAKO KURZOR */
     html, body {
-        cursor: url('/images/liska.png'), auto !important;
+        /* Čísla 16 16 znamenají, že aktivní bod je 16px zleva a 16px shora */
+        cursor: url('/images/liska.png') 16 16, auto !important;
     }
 
     a, button, [role="button"], .cursor-pointer {
-        cursor: url('/images/liska.png'), pointer !important;
-    }
-
-    /* ÚPRAVA PRO PROFIL (pokud chceš text trochu vlevo) */
-    @media (min-width: 768px) {
-        .flex.flex-col.items-center.text-center {
-            align-items: flex-start !important; /* Zarovná text a avatara doleva */
-            text-align: left !important;
-            margin-left: 5vw !important;      /* Mezera od levého kraje */
-        }
+        cursor: url('/images/liska.png') 16 16, pointer !important;
     }
 </style>
 
