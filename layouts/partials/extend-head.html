@@ -1,43 +1,32 @@
 <style>
-/* PC VERZE - Definitivní posun */
+/* PC VERZE (Monitor) */
 @media (min-width: 768px) {
-    .homepage-background .flex-col.items-center.justify-center {
+    /* Musíme zacílit na úplně nejvyšší kontejner v banneru */
+    .homepage-background .relative.flex.flex-col {
         display: flex !important;
-        flex-direction: column !important;
-        /* Tohle ho pošle úplně dolů */
-        justify-content: flex-end !important;
-        /* Zvětšíme výšku "kontejneru", aby byl až k zemi */
-        min-height: 94vh !important; 
-        /* Mezera odspodu (aby to nebylo v patě webu) */
-        padding-bottom: 6vh !important; 
-        /* Mezera odleva (šoupne to doleva) */
-        padding-left: 6vw !important; 
-        align-items: flex-start !important;
-        /* Zrušíme případné centrování z Blowfish */
-        top: auto !important;
+        min-height: 100vh !important; /* Vynutí výšku přes celou obrazovku */
+        justify-content: flex-end !important; /* Dotlačí obsah k zemi */
+        padding-bottom: 8vh !important; /* Mezera odspodu */
+        padding-left: 5vw !important; /* Posun doleva */
+        align-items: flex-start !important; /* Zarovnání textu doleva */
     }
 
-    /* Všechny texty srovnat doleva */
-    .homepage-background .text-center,
-    .homepage-background h1,
-    .homepage-background p {
+    /* Srovnáme texty, aby nebyly vycentrované */
+    .homepage-background .text-center {
         text-align: left !important;
-        margin-left: 0 !important;
-        margin-right: auto !important;
     }
-
-    /* Omezíme šířku, aby text nešel přes tělo Mirka */
-    .homepage-background .max-w-prose {
-        max-width: 420px !important;
+    
+    .homepage-background .items-center {
+        align-items: flex-start !important;
     }
 }
 
-/* MOBIL - Zůstane uprostřed dole */
+/* MOBILNÍ VERZE - Tady to necháme na střed, aby to vypadalo dobře */
 @media (max-width: 767px) {
-    .homepage-background .flex-col.items-center.justify-center {
+    .homepage-background .relative.flex.flex-col {
         justify-content: flex-end !important;
-        padding-bottom: 8vh !important;
-        min-height: 85vh !important;
+        min-height: 80vh !important;
+        padding-bottom: 5vh !important;
     }
 }
 </style>
