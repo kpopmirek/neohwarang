@@ -29,8 +29,6 @@
 
   
   
-    <meta name="author" content="Mirek">
-  
   
     
       
@@ -218,7 +216,7 @@ There is no dance school in my town or the surrounding area that teaches K-pop, 
     "url" : "//localhost:1313/en/o-mne/",
     "author" : {
       "@type": "Person",
-      "name": "Mirek"
+      "name": ""
     },
     
     
@@ -241,13 +239,24 @@ There is no dance school in my town or the surrounding area that teaches K-pop, 
   
   
     <style>
-    html, body {
-         
-        cursor: url('/images/liska.png') 16 16, auto !important;
+     
+    html, body, section, nav, footer {
+        cursor: url('/images/liska.png') 16 0, auto !important;
     }
 
-    a, button, [role="button"], .cursor-pointer {
-        cursor: url('/images/liska.png') 16 16, pointer !important;
+    a, button, .cursor-pointer, [role="button"] {
+        cursor: url('/images/liska.png') 16 0, pointer !important;
+    }
+
+     
+    #search-button, .search-button, button[aria-label="Search"] {
+        display: none !important;
+    }
+
+     
+    .flex.flex-col.items-center {
+        margin-left: unset !important;
+        align-items: center !important;
     }
 </style>
 
@@ -723,7 +732,7 @@ There is no dance school in my town or the surrounding area that teaches K-pop, 
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
           &copy;
           2026
-          Mirek
+          
       </p>
     
 
