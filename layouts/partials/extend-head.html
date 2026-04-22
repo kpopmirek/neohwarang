@@ -1,11 +1,13 @@
 <style>
-    html, body {
-        /* Čísla 16 16 znamenají, že aktivní bod je 16px zleva a 16px shora */
-        cursor: url('/images/liska.png') 16 16, auto !important;
+    /* Hvězdička (*) zajistí, že liška bude aktivní úplně na všem */
+    *, *::before, *::after {
+        /* 16 je polovina šířky (střed), 0 je úplný vršek obrázku */
+        cursor: url('/images/liska.png') 16 0, auto !important;
     }
 
-    a, button, [role="button"], .cursor-pointer {
-        cursor: url('/images/liska.png') 16 16, pointer !important;
+    /* Pro klikací prvky (odkazy, tlačítka) */
+    a, button, [role="button"], input, select, textarea {
+        cursor: url('/images/liska.png') 16 0, pointer !important;
     }
 </style>
 
