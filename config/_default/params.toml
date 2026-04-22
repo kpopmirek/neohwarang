@@ -1,5 +1,5 @@
 [author]
-  name = "Mirek"
+  name = ""
   image = "banner01.jpg"   # Tady musí být ta fotka pro profil!
  
 
@@ -37,8 +37,8 @@
   showDate = false
   showViews = false
   showLikes = false
-  #showAuthor = false
-  #showAuthorBottom = false
+  showAuthor = false
+  showAuthorBottom = false
   showHero = false
   showBreadcrumbs = false
   showTaxonomies = false
