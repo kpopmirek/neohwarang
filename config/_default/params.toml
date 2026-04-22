@@ -37,8 +37,8 @@
   showDate = false
   showViews = false
   showLikes = false
-  showAuthor = false
-  showAuthorBottom = false
+  #showAuthor = false
+  #showAuthorBottom = false
   showHero = false
   showBreadcrumbs = false
   showTaxonomies = false
