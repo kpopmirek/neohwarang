@@ -28,7 +28,7 @@
   showRecent = false
   showLinks = true  # <--- TOTO PŘIDEJ, aby se zobrazila ikona Instagramu
   align = "left"
-  heroSubtitle = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady. <br>Pokud chceš vidět více z mých tanečních coverů a jiných akcí, mrkni na Instagram. <br><br><div style='text-align: center; margin-top: 25px;'><img src='/images/liska2.webp' alt='Liška' style='width: 140px; height: auto; display: inline-block; border-radius: 12px; filter: drop-shadow(0 5px 15px rgba(0,0,0,0.4));'></div>"
+  heroSubtitle = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. <br><br> <img src='/images/liska2.webp' style='width:140px; height:auto;'>"
 
 [params.assets]
   customCSS = ["css/custom.css"]
