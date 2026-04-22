@@ -8,7 +8,7 @@
   colorScheme = "blowfish"
   defaultAppearance = "dark"
   autoSwitchAppearance = false
-  enableSearch = true
+  enableSearch = false
   disableTextInHeader = true
 
 [header]
