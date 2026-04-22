@@ -1,16 +1,19 @@
 <style>
-    /* Použijeme to jen na hlavní prvky, aby se nezhroutil zbytek šablony */
+    /* Kurzor liška */
     html, body, section, nav, footer {
         cursor: url('/images/liska.png') 16 0, auto !important;
     }
 
-    /* Odkazy a tlačítka - tady je důležité, aby liška zůstala */
     a, button, .cursor-pointer, [role="button"] {
         cursor: url('/images/liska.png') 16 0, pointer !important;
     }
 
-    /* Pokud se ti rozhodil profil (text/foto), tohle to vynuluje 
-       a nechá to na šabloně, jak to měla původně */
+    /* ODSTRANĚNÍ LUPY */
+    #search-button, .search-button, button[aria-label="Search"] {
+        display: none !important;
+    }
+
+    /* Reset profilu (aby nebyl rozhozený) */
     .flex.flex-col.items-center {
         margin-left: unset !important;
         align-items: center !important;
