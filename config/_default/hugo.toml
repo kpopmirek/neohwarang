@@ -3,7 +3,7 @@ defaultContentLanguage = "cs"
 title = "NEO HWARANG - tanec, soutěže a láska ke K-popu"
 description = "Tuto stránku jsem vytvořil jako místo, kde můžu sdílet svou cestu, chyby i úspěchy. Jsem rád, že jsi tady."
 
-baseURL = "/"   # pro Cloudflare necháme prázdné, použijeme $CF_PAGES_URL
+baseURL = 'https://kpop-mirek.com/'  # pro Cloudflare necháme prázdné, použijeme $CF_PAGES_URL
 
 [params]
   defaultAppearance = "dark"
