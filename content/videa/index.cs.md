@@ -8,7 +8,7 @@ Záznam z finálového vystoupení. Byla to pro mě skvělá zkušenost a moc js
 
 {{< youtube KwVamJrTsC4 >}}
 
-a společné vystoupení s výtěznou skupinou Impact
+a společné vystoupení s vítěznou skupinou Impact
 
 {{< youtube Y1OxhCqhuWE >}}
 
