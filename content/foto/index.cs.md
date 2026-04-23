@@ -17,6 +17,7 @@ lightbox: true
   <img src="k-pop-national-2026/07.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
   <img src="k-pop-national-2026/08.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
+
 ---
 
 ### K-pop Mania Contest 2025
