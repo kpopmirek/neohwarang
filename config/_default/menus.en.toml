@@ -1,23 +1,27 @@
 [[main]]
   name = "Home"
   pageRef = "/"
-  weight = 10
+  weight = 1
 
 [[main]]
   name = "About"
   pageRef = "o-mne"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Contests"
   pageRef = "souteze"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Photo"
   pageRef = "foto"
-  weight = 40
+  weight = 30
 
+[[main]]
+  name = "Videos"
+  pageRef = "/videa"
+  weight = 40
 
 [[main]]
   name = "Contact"
