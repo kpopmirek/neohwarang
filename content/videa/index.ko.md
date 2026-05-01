@@ -3,7 +3,8 @@ title: "영상"
 ---
 
 ### 2026 체코 K-pop National Dance Contest
-영상이 아직 처리 중입니다 – 잠시만 기다려 주세요.
+
+{{< youtube KwVamJrTsC4 >}}
 
 ---
 ### 2025 K-pop Mania

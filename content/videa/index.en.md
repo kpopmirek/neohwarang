@@ -3,7 +3,8 @@ title: "Videos"
 ---
 
 ### K-pop National Dance Contest of the Czech Republic 2026
-The video is currently being processed – please bear with me for a moment.
+
+{{< youtube KwVamJrTsC4 >}}
 
 ---
 ### K-pop Mania 2025
