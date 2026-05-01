@@ -4,7 +4,7 @@ title: "영상"
 
 ### 2026 체코 K-pop National Dance Contest
 
-{{< youtube KwVamJrTsC4 >}}
+{{< youtube qFjqsAquwhw >}}
 
 ---
 ### 2025 K-pop Mania
