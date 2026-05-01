@@ -4,7 +4,8 @@ title: "Videa"
 
 ---
 ### K-pop National Dance Contest of the Czech Republic 2026
-na videu se pracuje - mějte prosím se mnou chvilku strpení
+
+<iframe id="odysee-iframe" style="width:100%; aspect-ratio:16 / 9;" src="https://odysee.com/%24/embed/%40NeoHwarang%3Ac%2FK-pop-Mania---Spaghetti%3A6?r=7qYr4fpiDM9jnxzaHLd4MdwtTH8hZmRb" allowfullscreen></iframe>
 
 ---
 ### K-pop Mania 2025
