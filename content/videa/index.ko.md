@@ -4,6 +4,8 @@ title: "영상"
 
 ### 2026 체코 K-pop National Dance Contest
 
+{{< youtube XxfJNv9MvWY >}}
+
 {{< youtube qFjqsAquwhw >}}
 
 ---
