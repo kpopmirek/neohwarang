@@ -2,6 +2,12 @@
 title: "Videos"
 ---
 
+### K-pop Mania 2026
+
+{{< youtube 7QWGiV-UvPQ >}}
+
+---
+
 ### K-pop National Dance Contest of the Czech Republic 2026
 
 {{< youtube XxfJNv9MvWY >}}
