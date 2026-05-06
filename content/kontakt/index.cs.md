@@ -2,7 +2,7 @@
 title: "Kontakt"
 ---
 
-na mého otce, který tyto stránky spravuje
+kontakt na mého otce, který tyto stránky spravuje
 
 
 
