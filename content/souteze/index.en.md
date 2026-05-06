@@ -3,6 +3,7 @@ title: "Contests"
 ---
 
 ### My Contest Results
+---
 
 - **18 April 2026** — K-pop Mania Contest → **1st place**
 - **8 March 2026** — K-pop National Dance Contest of the Czech Republic → **1st place**
