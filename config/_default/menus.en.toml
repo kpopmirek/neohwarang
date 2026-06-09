@@ -9,21 +9,26 @@
   weight = 10
 
 [[main]]
+  name = "Logo"
+  pageRef = "/logo"
+  weight = 20
+
+[[main]]
   name = "Contests"
   pageRef = "souteze"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Photo"
   pageRef = "foto"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Videos"
   pageRef = "/videa"
-  weight = 40
+  weight = 50
 
 [[main]]
   name = "Contact"
   pageRef = "kontakt"
-  weight = 50
+  weight = 60
