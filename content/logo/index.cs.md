@@ -4,7 +4,7 @@ title: "O mně"
 
 Když jsem začal soutěžně tančit K-pop, vytvořil pro mě můj otec jednoduché logo, kterým bylo stylizované písmeno „K“ v kruhu, jehož konec navazoval na slovo „pop“. K – jako Korea, K-pop a také jako počáteční písmeno mého příjmení. 
 
-V roce 2026 jsme připojilik ke jménu Míra i název NEO HWARANG jako výraz úcty ke korejské historii a jejím tradicím. V souvislosti s tím i vzniklo nové logo jehož základem je Tcheguk ověnčený květy Ibišku (národní symboly Koreje). Přes ně jsou šikmo překřížené zlatý blesk a meč Hwando.  
+V roce 2026 jsme připojili ke jménu Míra i název NEO HWARANG jako výraz úcty ke korejské historii a jejím tradicím. V souvislosti s tím i vzniklo nové logo jehož základem je Tcheguk ověnčený květy Ibišku (národní symboly Koreje). Přes ně jsou šikmo překřížené zlatý blesk a meč Hwando.  
 
 **NEO HWARANG**: je odkazem na původní HWARANG (v překladu květinový rytíři), což byla elitní skupina mladých mužů království Silla, kteří se vzdělávali v bojových uměních, válečnictví, literatuře, poezii, hudbě a etice, buddhismu a tradičních rituálech. Hwarang mají velkou zásluhu i na sjednocení Koreje v 7. století. 
 
