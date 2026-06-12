@@ -10,7 +10,7 @@ V roce 2026 jsme připojili ke jménu Míra i název NEO HWARANG jako výraz úc
 
 **NEO HWARANG**: je odkazem na původní HWARANG (v překladu květinový rytíři), což byla elitní skupina mladých mužů království Silla, kteří se vzdělávali v bojových uměních, válečnictví, literatuře, poezii, hudbě a etice, buddhismu a tradičních rituálech. Hwarang mají velkou zásluhu i na sjednocení Koreje v 7. století. 
 
-**TCHEGUK**: je symbolem vesmírné rovnováhy, harmonie a neustálého koloběhu života. V souvislosti s tancem vyjadřuje rovnováhu mezi silou a ladností, kterou K-pop vyžaduje.
+**TCHEGUK**: je symbolem vesmírné rovnováhy, harmonie a neustálého koloběhu života. V souvislosti s tancem vyjadřuje rovnováhu mezi sílou a ladností, kterou K-pop vyžaduje.
 
 **KVĚTY IBIŠKU (MUGUNGHWA)**: Ibišek syrský je korejská národní květina a její název znamená „nesmrtelný květ, který nikdy neuvadá“. V logu symbolizuje vytrvalost – odhodlání tančit i přes únavu a bolest.
 
