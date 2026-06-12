@@ -2,7 +2,7 @@
 title: "Logo"
 ---
 
-**Vznik a význam loga**
+**Vznik a význam mého loga**
 
 Když jsem začal soutěžně tančit K-pop, vytvořil pro mě můj otec jednoduché logo, kterým bylo stylizované písmeno „K“ v kruhu, jehož konec navazoval na slovo „pop“. K – jako Korea, K-pop a také jako počáteční písmeno mého příjmení. 
 

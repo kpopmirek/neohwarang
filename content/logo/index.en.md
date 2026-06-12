@@ -2,7 +2,7 @@
 title: "Logo"
 ---
 
-**The origin and meaning of the logo**
+**The origin and meaning of my logo**
 
 When I started competitive K-pop dancing, my father created a simple logo for me. It featured a stylised letter ‘K’ within a circle, with the end of the letter leading into the word ‘pop’. The ‘K’ stood for Korea, K-pop, and also the initial of my surname.
 
