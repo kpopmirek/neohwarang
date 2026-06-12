@@ -2,6 +2,8 @@
 title: "Logo"
 ---
 
+**The origin and meaning of the logo**
+
 When I started competitive K-pop dancing, my father created a simple logo for me. It featured a stylised letter ‘K’ within a circle, with the end of the letter leading into the word ‘pop’. The ‘K’ stood for Korea, K-pop, and also the initial of my surname.
 
 In 2026, we added the name NEO HWARANG to my stage name, Míra, as a mark of respect for Korean history and traditions. In connection with this, a new logo was designed. Its foundation is the Taegeuk, wreathed in Hibiscus flowers (national symbols of Korea). Diagonally crossed over them are a golden lightning bolt and a Hwando sword.
