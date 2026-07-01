@@ -7,6 +7,7 @@ title: "Videa"
 
 {{< youtube 1DKbu8kCDuM >}}
 
+---
 ### K-pop Mania 2026
 
 {{< youtube 7QWGiV-UvPQ >}}
