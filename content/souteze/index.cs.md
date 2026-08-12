@@ -5,7 +5,7 @@ title: "Soutěže"
 ### Moje soutěžní výsledky
 ---
 
-- **1. srpna 2026** — Advík Praha → **2. místo**
+- **1. srpna 2026** — Advík K-pop Contest → **2. místo**
 - **27. června 2026** — FanAsia K-pop Contest SVK → **1. místo**
 - **18. dubna 2026** — K-pop Mania Contest → **1. místo**
 - **8. března 2026** — K-pop National Dance Contest of the Czech Republic → **1. místo**
