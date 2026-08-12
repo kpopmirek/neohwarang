@@ -3,6 +3,11 @@ title: "Videos"
 ---
 
 ---
+### K-Pop Dance Contest – Advík Prague 2026
+
+{{< youtube 12qbfmbhGpVbtm2H >}}
+
+---
 ### K-pop Dance Contest - FanAsia Bratislava 2026
 
 {{< youtube 1DKbu8kCDuM >}}
