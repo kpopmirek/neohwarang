@@ -3,6 +3,11 @@ title: "Videa"
 ---
 
 ---
+### K-pop Dance Contest - Advík Praha 2026
+
+{{< youtube 12qbfmbhGpVbtm2H >}}
+
+---
 ### K-pop Dance Contest - FanAsia Bratislava 2026
 
 {{< youtube 1DKbu8kCDuM >}}
