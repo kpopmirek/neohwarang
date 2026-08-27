@@ -4,4 +4,4 @@ title: "문의하기"
 
 이 사이트를 관리해주시는 저의 아버지께 연락해 주세요.
 
-**이메일:** kucerast1@gmail.com
+**이메일:** neohwarang1@gmail.com

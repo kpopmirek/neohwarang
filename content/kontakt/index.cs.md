@@ -6,5 +6,5 @@ kontakt na mého otce, který tyto stránky spravuje
 
 
 
-**e-mail**: kucerast1@gmail.com; 
+**e-mail**: neohwarang1@gmail.com; 
 **mobil**: +420 776 397 311
