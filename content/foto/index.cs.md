@@ -24,6 +24,8 @@ lightbox: true
   <img src="fan-asia-2026/15.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
 
+---
+
 ### K-pop Mania Contest 2026
 
 {{< gallery >}}
