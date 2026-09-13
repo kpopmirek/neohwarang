@@ -3,7 +3,7 @@ title: "Photo"
 gallery: true
 ---
 
-### K-pop Mania Contest 2025
+### K-pop Mania Contest 2026
 
 {{< gallery >}}
   <img src="k-pop-mania-2026/01.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
