@@ -10,7 +10,7 @@ title: "Videa"
 
 {{< youtube FBFsIjl_yjs >}}
 
-<div>
+</div>
 
 <div>
 
@@ -18,7 +18,7 @@ title: "Videa"
 
 {{< youtube 1DKbu8kCDuM >}}
 
-<div>
+</div>
 
 <div>
 
@@ -26,7 +26,7 @@ title: "Videa"
 
 {{< youtube 7QWGiV-UvPQ >}}
 
-<div>
+</div>
 
 <div>
 
@@ -36,7 +36,7 @@ title: "Videa"
 ---
 {{< youtube qFjqsAquwhw >}}
 
-<div>
+</div>
 
 <div>
 
@@ -45,7 +45,7 @@ mé druhé soutěžní vystoupení...
 
 {{< youtube oPIzDH5wv8s>}}
 
-<div>
+</div>
 
 <div>
 
@@ -58,6 +58,6 @@ a společné vystoupení s vítěznou skupinou Impact
 
 {{< youtube Y1OxhCqhuWE >}}
 
-<div>
+</div>
 
-<div>
+</div>
