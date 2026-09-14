@@ -31,7 +31,7 @@
   languageCode = "ko"
   languageName = "한국어"
   weight = 3
-  title = "네오 화랑 – 댄스 및 K-pop"
+  title = "네오 화랑 – 댄스, 대회 그리고 K-팝에 대한 사랑"
   [ko.params]
     displayName = "한국어"
   [ko.params.author]
