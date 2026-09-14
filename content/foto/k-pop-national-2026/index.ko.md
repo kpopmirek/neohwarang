@@ -1,5 +1,6 @@
 ---
 title: "K-pop National Dance Contest 2026"
+date: 2026-03-08
 layout: "gallery"
 lightbox: true
 ---

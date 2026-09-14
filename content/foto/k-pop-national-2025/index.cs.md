@@ -1,5 +1,6 @@
 ---
 title: "K-pop National Dance Contest 2025"
+date: 2025-03-15
 layout: "gallery"
 lightbox: true
 ---

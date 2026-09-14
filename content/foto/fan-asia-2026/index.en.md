@@ -1,5 +1,6 @@
 ---
 title: "FanAsia K-pop Contest 2026"
+date: 2026-06-27
 layout: "gallery"
 lightbox: true
 ---

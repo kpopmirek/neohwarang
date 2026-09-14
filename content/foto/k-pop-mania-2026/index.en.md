@@ -1,5 +1,6 @@
 ---
 title: "K-pop Mania Contest 2026"
+date: 2026-04-18
 layout: "gallery"
 lightbox: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "K-pop Mania Contest 2025"
+date: 2025-04-26
 layout: "gallery"
 lightbox: true
 ---
