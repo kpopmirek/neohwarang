@@ -1,36 +1,61 @@
 ---
 title: "영상"
 ---
+## 2026
 
----
+<div class="video-grid">
+
+<div>
+
 ### 2026 아드빅 프라하 케이팝 댄스 경연대회
 
 {{< youtube FBFsIjl_yjs >}}
 
----
+</div>
+
+<div>
+
 ### 2026 팬아시아 케이팝 댄스 콘테스트 (브라티슬라바, 슬로바키아)
 
 {{< youtube 1DKbu8kCDuM >}}
 
----
+</div>
+
+<div>
+
 ### 2026 케이팝 매니아
 
 {{< youtube 7QWGiV-UvPQ >}}
 
----
+</div>
+
+<div>
+
 ### 2026 체코 케이팝 전국 댄스 콘테스트
 
 {{< youtube XxfJNv9MvWY >}}
----
+
 {{< youtube qFjqsAquwhw >}}
 
----
+</div>
+
+</div>
+
+## 2025
+
+<div class="video-grid">
+
+<div>
+
 ### 2025 케이팝 매니아
 제 두 번째 콘테스트 무대...
 
 {{< youtube oPIzDH5wv8s >}}
 
----
+</div>
+
+<div>
+
 ### 2025 체코 케이팝 전국 댄스 콘테스트
 결승 무대 녹화 영상입니다. 저에게 아주 좋은 경험이었고 정말 즐겁게 무대에 섰어요.
 
@@ -39,3 +64,7 @@ title: "영상"
 우승팀 **Impact**와 함께한 공동 무대
 
 {{< youtube Y1OxhCqhuWE >}}
+
+</div>
+
+</div>
