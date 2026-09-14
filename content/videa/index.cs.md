@@ -34,7 +34,7 @@ title: "Videa"
 ### K-pop National Dance Contest of the Czech Republic 2026
 
 {{< youtube XxfJNv9MvWY >}}
----
+
 {{< youtube qFjqsAquwhw >}}
 
 </div>
