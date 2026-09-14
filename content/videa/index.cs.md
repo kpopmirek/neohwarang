@@ -45,6 +45,8 @@ title: "Videa"
 
 <div class="video-grid">
 
+<div>
+
 ### K-pop Mania 2025
 mé druhé soutěžní vystoupení...
 
