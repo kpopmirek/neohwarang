@@ -1,34 +1,34 @@
 [[main]]
-  name = "홈"
+  name = "☯︎홈"
   pageRef = "/"
   weight = 1
 
 [[main]]
-  name = "나에 대해"
+  name = "☯︎나에 대해"
   pageRef = "/o-mne"
   weight = 10
 
 [[main]]
-  name = "로고"
+  name = "☯︎로고"
   pageRef = "/logo"
   weight = 20
 
 [[main]]
-  name = "대회"
+  name = "☯︎대회"
   pageRef = "/souteze"
   weight = 30
 
 [[main]]
-  name = "사진"
+  name = "☯︎사진"
   pageRef = "/foto"
   weight = 40
 
 [[main]]
-  name = "비디오"
+  name = "☯︎비디오"
   pageRef = "/videa"
   weight = 50
 
 [[main]]
-  name = "연락하기"
+  name = "☯︎연락하기"
   pageRef = "/kontakt"
   weight = 60
