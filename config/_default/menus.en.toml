@@ -1,34 +1,34 @@
 [[main]]
-  name = "☯︎ Home"
+  name = "☯︎\u00A0Home"
   pageRef = "/"
   weight = 1
 
 [[main]]
-  name = "☯︎ About"
+  name = "☯︎\u00A0About"
   pageRef = "o-mne"
   weight = 10
 
 [[main]]
-  name = "☯︎ Logo"
+  name = "☯︎\u00A0Logo"
   pageRef = "/logo"
   weight = 20
 
 [[main]]
-  name = "☯︎ Contests"
+  name = "☯︎\u00A0Contests"
   pageRef = "souteze"
   weight = 30
 
 [[main]]
-  name = "☯︎ Photo"
+  name = "☯︎\u00A0Photo"
   pageRef = "foto"
   weight = 40
 
 [[main]]
-  name = "☯︎ Videos"
+  name = "☯︎\u00A0Videos"
   pageRef = "/videa"
   weight = 50
 
 [[main]]
-  name = "☯︎ Contact"
+  name = "☯︎\u00A0Contact"
   pageRef = "kontakt"
   weight = 60
