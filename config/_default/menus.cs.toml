@@ -4,7 +4,7 @@
   weight = 1
 
 [[main]]
-  name = "☯︎\u00A0O mně"
+  name = "☯︎\u00A0O\u00A0mně"
   pageRef = "/o-mne"
   weight = 10
 
