@@ -4,7 +4,7 @@
   weight = 1
 
 [[main]]
-  name = "☯︎\u00A0나에 대해"
+  name = "☯︎\u00A0나에\u00A0대해"
   pageRef = "/o-mne"
   weight = 10
 
@@ -29,7 +29,7 @@
   weight = 50
 
 [[main]]
-  name = "☯︎\u00A0커버 댄스"
+  name = "☯︎\u00A0커버\u00A0댄스"
   pageRef = "/cover dance"
   weight = 60
 
