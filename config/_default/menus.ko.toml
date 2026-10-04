@@ -29,6 +29,11 @@
   weight = 50
 
 [[main]]
+  name = "☯︎\u00A0커버 댄스"
+  pageRef = "/cover dance"
+  weight = 60
+
+[[main]]
   name = "☯︎\u00A0연락하기"
   pageRef = "/kontakt"
-  weight = 60
+  weight = 70

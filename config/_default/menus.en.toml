@@ -28,7 +28,12 @@
   pageRef = "/videa"
   weight = 50
 
+  [[main]]
+  name = "☯︎\u00A0Cover\u00A0dance"
+  pageRef = "/cover dance"
+  weight = 60
+
 [[main]]
   name = "☯︎\u00A0Contact"
   pageRef = "kontakt"
-  weight = 60
+  weight = 70
