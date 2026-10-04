@@ -73,8 +73,8 @@ article.prose h2:first-child {
 }
 
 
-header nav a,
-.menu-item {
+nav a.bf-icon-color-hover,
+nav a.bf-icon-color-hover span {
   white-space: nowrap !important;
   word-break: keep-all !important;
 }
